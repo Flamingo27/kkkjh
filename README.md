@@ -70,7 +70,7 @@ python -m pytest
 
 ## Deployment
 
-The repository includes `vercel.json` for an API deployment and a static frontend build. Set `ELEXON_BASE_URL` only if the client uses an approved Elexon proxy. A deployment needs the client’s Vercel account/token and project linkage, which are not present in this workspace, so it has not been published from here. For a single-container host, use the supplied `Dockerfile` and expose port 8080.
+The repository includes `vercel.json` for an API deployment and a static frontend build. The sample is deployed at https://1-problem-setting-consider-that-23xpxtbti.vercel.app. Set `ELEXON_BASE_URL` only if the client uses an approved Elexon proxy. For a single-container host, use the supplied `Dockerfile` and expose port 8080.
 
 ## Client pitch
 
